@@ -1,15 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Button } from 'antd';
 
-function index(props) {
+function Header() {
   return (
-    <div/>
+    <div>
+      <Button type="primary">按钮</Button>
+    </div>
   );
 }
 
-index.propTypes = {
+Header.propTypes = {
 
 };
 
-export default index;
+export default Header;
 
